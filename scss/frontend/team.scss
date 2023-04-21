@@ -1,0 +1,61 @@
+.team_box{
+    margin-bottom: 3rem;
+    &:hover{
+        figcaption{
+            opacity: 1;
+            transition: 0.3s;
+        }
+    }
+    figure{
+        position: relative;
+        img{
+            width: 100%;
+            border-radius: 0.4rem;
+            height: 32rem;
+            object-fit: cover;
+        }
+        figcaption{
+            position: absolute;
+            background-color: $primary_color;
+            width: 100%;
+            bottom: 0;
+            padding: 2rem;
+            opacity: 0;
+            border-radius: 0 0 0.4rem 0.4rem;
+            transition: 0.3s;
+            h4{
+                color: $white_color;
+            }
+            
+        }
+    }
+}
+
+.team_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    .team_img{
+        flex: 1;
+        img{
+            width: 100%;
+            border-radius: 0.4rem;
+        }
+    }
+    .team_info{
+        flex: 2;
+        label{
+            font-weight: 600;
+            color: $black_color;
+            margin-bottom: 1rem;
+        }
+        h3{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
+.team{
+    background-color: $black_color
+}

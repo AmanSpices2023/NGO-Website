@@ -1,0 +1,122 @@
+.volunter {
+    background: url(../images/scroll.jpg) no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    padding: 8rem 0;
+    z-index: 999;
+
+    .overlay {
+        opacity: initial;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    }
+
+    .volunter_content {
+        position: relative;
+        z-index: 99;
+
+        .main_title {
+            max-width: 32rem;
+
+            span {
+                color: $white_color;
+
+                &:after {
+                    background-color: $white_color;
+                }
+            }
+
+            h2 {
+                color: $white_color;
+            }
+        }
+
+        p {
+            color: $white_color;
+            max-width: 50rem;
+        }
+
+        .secondary_btn {
+            margin-top: 3rem;
+        }
+    }
+}
+
+.admission_page {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 5rem;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    h4 {
+        margin: 2rem 0 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .form-control {
+        padding-left: 0;
+        border-radius: 0;
+        height: 4rem;
+        border: 0;
+        border-bottom: $border-height-sm solid $border_color;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.review_box {
+    background: linear-gradient(339deg, #fff 0%, #dee1ff 100%);
+    padding: 3rem 4rem;
+    border-radius: 0.8rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 0;
+
+    .main_title {
+        text-align: center;
+        max-width: initial !important;
+
+        h2 {
+            color: $primary_color !important;
+        }
+
+        span {
+            color: $primary_color !important;
+
+            &::after {
+                display: none;
+
+            }
+        }
+    }
+
+    .client_img {
+        img {
+            width: 7rem;
+            height: 7rem;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            background-color: #fff;
+        }
+    }
+
+    .client_img {
+        p {
+            color: $text_color;
+            margin-bottom: 5rem;
+        }
+
+        span {
+            color: $text_color1;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

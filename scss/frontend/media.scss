@@ -1,0 +1,286 @@
+@media only screen and (max-width: 479px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .top_header {
+        display: initial;
+
+        .header_left {
+            position: absolute;
+            top: 0.8rem;
+            z-index: 9999;
+        }
+    }
+
+    nav {
+        ul.slimmenu {
+            padding-left: 1.5rem;
+
+            li {
+                .sub-toggle {
+                    display: block;
+                }
+
+                ul {
+                    padding-left: 1.5rem;
+                    border: 0;
+
+                    li {
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .sticky_header nav ul li a {
+        color: $primary_color;
+        padding-left: 0;
+    }
+
+    .service_box {
+        margin-bottom: 3rem;
+    }
+
+    .about_us {
+        padding: 0 1.5rem;
+
+        .about_us_wrapper {
+            flex-direction: column;
+            gap: 3rem;
+
+            .about_content {
+                .about_box {
+                    max-width: initial;
+                }
+
+                .feature_wrapper {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+
+    .project {
+        .project_content {
+            .section_heading {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .project_box {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .news_box {
+        margin-bottom: 3rem;
+    }
+
+    .footer_info {
+        margin-bottom: 3rem;
+    }
+
+    .left_content {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .single_page {
+        width: initial;
+    }
+
+    .project_left {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .review_box {
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .top_header {
+        display: initial;
+
+        .header_left {
+            position: absolute;
+            top: 0.8rem;
+            z-index: 9999;
+        }
+    }
+
+    nav {
+        ul.slimmenu {
+            padding-left: 1.5rem;
+
+            li {
+                .sub-toggle {
+                    display: block;
+                }
+
+                ul {
+                    padding-left: 1.5rem;
+                    border: 0;
+
+                    li {
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .sticky_header nav ul li a {
+        color: $primary_color;
+        padding-left: 0;
+    }
+
+    .service_box {
+        margin-bottom: 3rem;
+    }
+
+    .about_us {
+        padding: 0 1.5rem;
+
+        .about_us_wrapper {
+            flex-direction: column;
+            gap: 3rem;
+
+            .about_content {
+                .about_box {
+                    max-width: initial;
+                }
+
+                .feature_wrapper {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+
+    .project {
+        .project_content {
+            .section_heading {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .project_box {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .news_box {
+        margin-bottom: 3rem;
+    }
+
+    .footer_info {
+        margin-bottom: 3rem;
+    }
+
+    .left_content {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .single_page {
+        width: initial;
+    }
+
+    .project_left {
+        padding-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .review_box {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .about_us {
+        .about_us_wrapper {
+            gap: 3rem;
+
+            .about_content {
+                .about_box {
+                    max-width: initial;
+                }
+
+                .feature_wrapper {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+
+    .footer_intro {
+        margin-bottom: 3rem;
+    }
+
+    .left_content {
+        padding-right: 3rem;
+    }
+
+    .project_left {
+        padding-right: 2rem;
+    }
+
+    .review_box {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 4000px) {}

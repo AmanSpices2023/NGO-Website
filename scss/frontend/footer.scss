@@ -1,0 +1,33 @@
+footer {
+    background-color: $footer_bg;
+    h3,h4 {
+        color: $white_color_light;
+        margin-bottom: 2rem;
+    }
+
+    p,a,li {
+        color: $footer_text;
+    }
+    .footer_bottom {
+        padding: 1rem 0;
+        text-align: center;
+        border-top: $border-height-sm solid $blue_shade;
+    }
+    .footer_top {
+        padding: 7rem 0;
+        .footer_info {
+            ul {
+                li {
+                    line-height: 3.4rem;
+                    display: flex;
+                    gap: 1rem;
+                    a {
+                        &:hover {
+                            color: $secondary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

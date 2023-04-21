@@ -1,0 +1,112 @@
+.news_box {
+    figure {
+        img {
+            width: 100%;
+            border-radius: 0.8rem;
+            margin-bottom: 1.5rem;
+            height: 28rem;
+            object-fit: cover;
+        }
+
+        figcaption {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            .date_box {
+                width: 8rem;
+                height: 8rem;
+                background-color: $secondary_color;
+                border-radius: 0.4rem;
+                text-align: center;
+                padding: 0.5rem;
+                color: $primary_color;
+                font-size: $font-xs;
+                font-weight: 400;
+
+                span {
+                    margin-top: 1rem;
+                    font-family: $primary_font;
+                    font-size: $font-xl;
+                    display: block;
+                    font-weight: 600;
+                }
+
+                label {
+                    font-weight: 600;
+                }
+            }
+
+            h3 {
+                flex: 1;
+            }
+        }
+    }
+}
+
+.blog_listing {
+    .news_box {
+        margin-bottom: 3rem;
+    }
+}
+
+.blog_detail {
+    .news_box {
+        figure {
+            position: relative;
+
+            img {
+                height: 35rem;
+                margin-bottom: 3rem;
+            }
+
+            figcaption {
+                display: initial;
+
+                .date_box {
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+                    opacity: 0.9;
+
+                }
+            }
+        }
+    }
+
+    .related_news {
+        background: linear-gradient(339deg, #fff 0%, #dee1ff 100%);
+        padding: 3rem;
+        border-radius: 0.8rem;
+        h3{
+            margin-bottom: 1.5rem;   
+        }
+        ul {
+            li {
+                &:hover{
+                    h4{
+                        opacity: 0.7;
+                    }
+                }
+                border-bottom: $border-height-sm solid $border_color;
+                padding-bottom: 1.5rem;
+                margin-bottom: 1.5rem;
+                &:last-child{
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                }
+                a {
+                    color: $text_color;
+                }
+                label {
+                    font-size: $font-sm;
+                    font-weight: 500;
+                    margin-bottom: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+

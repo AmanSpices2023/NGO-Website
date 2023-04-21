@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NGO</title>
+  <link href="fonts/bootstrapicon/font/bootstrap-icons.css" type="text/css" rel="stylesheet">
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <header>
+    <div class="main_menu">
+      <div class="sticky_header">
+        <div class="container">
+          <div class="top_header">
+            <div class="header_left">
+              <figure>
+                <a href="#">
+                  <img src="images/logo.jpg" alt="title">
+                </a>
+              </figure>
+            </div>
+            <div class="header_right">
+              <nav>
+                <ul class="slimmenu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li>
+                    <a href="#">Our Works</a>
+                    <ul>
+                      <li><a href="#">Work1</a></li>
+                      <li>
+                        <a href="#">Work2</a>
+                        <ul>
+                          <li><a href="#">Project</a></li>
+                          <li>
+                            <a href="#">Project</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main_page">
+    <section class="page_head mb-80">
+      <div class="page_head_bg" style="background-image: url(images/bg1.jpg)">
+        <div class="overlay">
+        </div>
+        <div class="page_head_title">
+          <h1>Course Details</h1>
+        </div>
+        <div class="page_head_breadcrumb">
+          <ul>
+            <li><a href="#">Home /</a></li>
+            <li><span>Course Details</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="page_content mb-80">
+      <div class="container">
+        <div class="course_page course_details">
+          <div class="row">
+            <div class="col* col-md-8 col-lg-8 left_content">
+              <div class="course_banner_img">
+                <figure>
+                  <img src="images/bg2.jpg" alt="title">
+                </figure>
+              </div>
+              <div class="course_tab Custom_tab">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview"
+                      type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum"
+                      type="button" role="tab" aria-controls="curriculum" aria-selected="false">Curriculum</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button"
+                      role="tab" aria-controls="review" aria-selected="false">Review</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor" type="button"
+                      role="tab" aria-controls="instructor" aria-selected="false">Instructor</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                    <h3>Overview</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quod eveniet ab magnam culpa,
+                      amet obcaecati soluta ipsa consequatur dolores natus maiores!
+                      Tempora excepturi aspernatur sequi quae, dolore ratione eaque?</p>
+                    <div class="styled_listing">
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet co elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing .</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet co elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing .</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab">
+                    <h3>Introduction</h3>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Chapter 1
+                          </button>
+                        </h4>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Chapter 2
+                          </button>
+                        </h4>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h4 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Chapter 3
+                          </button>
+                        </h4>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <h3>Review</h3>
+                    <div class="course_form">
+                      <form action="#">
+                        <div class="row">
+                          <div class="col* col-md-6 col-lg-6 form-group input_field">
+                            <input type="text" value="" name="" class="form-control" placeholder="First Name">
+                          </div>
+                          <div class="col* col-md-6 col-lg-6 form-group input_field">
+                            <input type="text" value="" name="" class="form-control" placeholder="Last Name">
+                          </div>
+                          <div class="col* col-md-6 col-lg-6 form-group input_field">
+                            <input type="text" value="" name="" class="form-control" placeholder="Email Address">
+                          </div>
+                          <div class="col* col-md-6 col-lg-6 form-group input_field">
+                            <input type="text" value="" name="" class="form-control" placeholder="Mobile Number">
+                          </div>
+                          <div class="col* col-md-12 col-lg-12 form-group input_field">
+                            <textarea value="" name="" class="form-control"></textarea>
+                          </div>
+                          <div class="text-left">
+                            <button type="submit" class="btn primary_btn">
+                              <div class="icon_box">
+                                <i class="bi bi-arrow-right-short"></i>
+                              </div>
+                              Submit
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade show" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+                    <div class="instructor_wrapper">
+                      <div class="ins_img">
+                        <figure>
+                          <img src="images/dp_img.png" alt="title">
+                        </figure>
+                      </div>
+                      <div class="ins_info">
+                        <h3>Dr Sujan Shrestha</h3>
+                        <label>Digital Marketer</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quod eveniet ab magnam culpa,
+                          amet obcaecati soluta ipsa consequatur dolores natus maiores!
+                          Tempora excepturi aspernatur sequi quae, dolore ratione eaque?</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col* col-md-4 col-lg-4">
+              <div class="course_feature">
+                <h3>Course Features</h3>
+                <ul>
+                  <li><span>lesson</span>3</li>
+                  <li><span>Duration</span>1 hr</li>
+                  <li><span>Quizes</span>5</li>
+                  <li><span>lesson</span>3</li>
+                  <li><span>Duration</span>1 hr</li>
+                  <li><span>Quizes</span>5</li>
+                </ul>
+              </div>
+              <a href="#" class="primary_btn mt-25">
+                <div class="icon_box">
+                  <i class="bi bi-arrow-right-short"></i>
+                </div>
+                Enroll Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer_top">
+      <div class="container">
+        <div class="top_footer_content">
+          <div class="row">
+            <div class="col* col-md-12 col-lg-5">
+              <div class="footer_info footer_intro">
+                <h3>Media House NICD</h3>
+                <p>Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska.
+                  Jinesade bel när feras redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat.
+                  Viktiga poddradio har un mad och inde. </p>
+                <div class="follow_us">
+                </div>
+              </div>
+            </div>
+            <div class="col* col-md-4 col-lg-2">
+              <div class="footer_info">
+                <h4>Pages</h4>
+                <ul>
+                  <li><a href="#">Home it work</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Project</a></li>
+                  <li><a href="#">Services</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col* col-md-4 col-lg-2">
+              <div class="footer_info">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="#">Our Work</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col* col-md-4 col-lg-3">
+              <div class="footer_info">
+                <h4>Quick Contact</h4>
+                <ul>
+                  <li><i class="bi bi-telephone-fill"></i>(+977) 9841-000111</li>
+                  <li><i class="bi bi-envelope-fill"></i>info@gmail.com</li>
+                  <li><i class="bi bi-geo-fill"></i>Kathmandu, Nepal.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer_bottom">
+      <div class="container">
+        <p>© 2023 Skill based NGO | Powered by Spices Research & Business Consultancy</p>
+      </div>
+    </section>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.slimmenu.min.js"></script>
+  <script src="js/swiper/swiper.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script>
+    $('.slimmenu').slimmenu({
+      resizeWidth: '768',
+      collapserTitle: '',
+      animSpeed: 'medium',
+      indentChildren: true,
+      childrenIndenter: '&raquo;'
+    });
+  </script>
+
+</body>
+
+</html>

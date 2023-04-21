@@ -1,0 +1,33 @@
+.service_box {
+    background-color: $secondary_color;
+    padding: 2.5rem;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+    &:hover {
+        background-color: $primary_color;
+        transition: 0.5s;
+        color: $white_color;
+        h2{
+            color: $white_color;
+            transition: 0.5s;
+        }
+        p{
+            color: $white_color;
+            transition: 0.5s;
+        }
+        .icon_box{
+            background-color: $white_color_light;
+        }
+    }
+    .icon_box{
+        margin-bottom: 2rem;
+    }
+    h2 {
+        font-size: $font-lg;
+        color: $blue_shade;
+    }
+    a{
+        color: $blue_shade;
+    }
+}
+

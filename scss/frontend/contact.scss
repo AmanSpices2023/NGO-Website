@@ -1,0 +1,48 @@
+
+.contact_page{
+    .contact_form{
+        h2{
+            margin-bottom: 2rem;
+        }
+        .form-control{
+            padding-left: 2rem;
+            border-radius: 0.4rem;
+            font-size: 1.6rem;
+            height: 5rem;
+            margin-bottom: 2rem;
+            border-color: $border_color;
+        }
+    }
+    .contact_page_info{
+        background: linear-gradient(339deg, rgba(255,255,255,1) 0%, rgba(222,225,255,1) 100%);
+        padding: 3rem;
+        border-radius: 0.4rem;
+        ul{
+            li{
+                display: flex;
+                gap: 1.5rem;
+                margin-top: 3rem;
+                .icon_box {
+                    width: 5.2rem;
+                    height: 5.2rem;
+                    line-height: 5.2rem;
+                    i{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.map_info{
+    margin-bottom: -0.8rem;
+    iframe{
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+.fancybox-error {
+    max-width: 80%;
+}
